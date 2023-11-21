@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.brand {
+    font-weight: bold;
+}
+
+/* About Section Styles */
+#about {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 72px;
+    color: #ccc;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #666;
+    text-decoration: none;
+}
+
+.profile-picture {
+    width: 300px; /* Adjust as necessary */
+    margin-top: 20px;
+}
+
+/* Services Section Styles */
+#services {
+    background: #f8f8f8;
+    padding: 50px;
+}
+
+/* Additional Section Styles */
+#additional-section {
+    padding: 50px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
