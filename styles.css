@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff; /* Set a default background color */
+    color: #333; /* Default text color for better readability */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Dark background for the header */
+    color: #fff;
+}
+
+.menu {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.brand {
+    font-weight: bold;
+}
+
+/* About Section Styles */
+#about {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9; /* Light grey background for contrast */
+}
+
+h1 {
+    font-size: 72px;
+    color: #333; /* Darker color for the title */
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #0056b3; /* Use a different color for the button for better visibility */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for the button */
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #0056b3; /* Match button color for consistency */
+    text-decoration: none;
+}
+
+.profile-picture {
+    width: 150px; /* Smaller size for the profile picture */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular profile picture */
+    margin-top: 20px;
+}
+
+/* Projects Section Styles */
+#projects {
+    background-color: #e9ecef; /* Slightly darker grey for separation */
+    padding: 50px;
+    text-align: center; /* Center aligning the content */
+}
+
+/* Hobbies Section Styles */
+#hobbies {
+    background-color: #f9f9f9; /* Same as about for consistency */
+    padding: 50px;
+    text-align: center; /* Center aligning the content */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333; /* Dark background for the footer */
+    color: #fff;
+}
